@@ -1,0 +1,28 @@
+{
+  "name": "New Demo Schedule",
+  "author": "Ryan Mazzella",
+  "lastModifiedDate": "2026-10-11T22:57:31",
+  "notes": "Newly edited note",
+  "fields": [
+    {
+      "name": "CSCE 145",
+      "type": "Class",
+      "origin": "created",
+      "notes": "Demonstration custom class",
+      "instructor": "Professor Plum",
+      "credits": 3,
+      "timeSlots": [
+        {
+          "days": [
+            2,
+            4,
+            6
+          ],
+          "startTime": "08:30 AM",
+          "endTime": "09:45 AM",
+          "location": "Swearengen"
+        }
+      ]
+    }
+  ]
+}
