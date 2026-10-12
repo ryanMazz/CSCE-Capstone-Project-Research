@@ -6,20 +6,13 @@ import scheduleViewer
 def option_one():
     scheduleViewer.runViewer(True)
 
-
 def option_two():
     scheduleViewer.runViewer()
-
-
-def option_three():
-    print("TODO")
-
 
 def main():
     actions = {
         "1": option_one,
-        "2": option_two,
-        "3": option_three,
+        "2": option_two
     }
 
     while True:
@@ -27,12 +20,11 @@ def main():
         print("Enter a command:")
         print("1. Create new schedule")
         print("2. Load saved schedule")
-        print("3. View available classes")
-        print("4. Exit")
+        print("3. Exit")
 
         choice = input("\n> ").strip()
 
-        if choice == "4":
+        if choice == "3":
             break
         elif choice in actions:
             os.system('cls' if os.name == 'nt' else 'clear')

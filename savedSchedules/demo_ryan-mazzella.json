@@ -1,0 +1,84 @@
+{
+  "name": "Demo",
+  "author": "Ryan Mazzella",
+  "lastModifiedDate": "2026-10-11T20:15:00",
+  "notes": "Demo schedule based on my initial plans for this semester.",
+  "fields": [
+    {
+      "name": "CSCE 552 - Computer Game Development",
+      "type": "Class",
+      "origin": "Catalog Import",
+      "notes": "Flexible. May drop in favor of more available class.",
+      "instructor": "Jeremiah Shepherd",
+      "credits": 3,
+      "timeSlots": [
+        {
+          "days": [2, 4],
+          "startTime": "02:20 PM",
+          "endTime": "03:35 PM",
+          "location": "300 Main, Room B112"
+        }
+      ]
+    },
+    {
+      "name": "CSCE 355 - Foundations of Computation",
+      "type": "Class",
+      "origin": "Catalog Import",
+      "notes": "Requires JFLAP. Research.",
+      "instructor": "James O'Reilly",
+      "credits": 3,
+      "timeSlots": [
+        {
+          "days": [2, 4],
+          "startTime": "08:05 AM",
+          "endTime": "9:20 AM",
+          "location": "Carolina Coliseum, Room B112"
+        }
+      ]
+    },
+    {
+      "name": "ITEC 245 - Intro to Networking",
+      "type": "Class",
+      "origin": "Catalog Import",
+      "notes": "DO NOT CHANGE. Required for minor.",
+      "instructor": "Elie Kfoury",
+      "credits": 3,
+      "timeSlots": [
+        {
+          "days": [3, 5],
+          "startTime": "11:40 AM",
+          "endTime": "12:55 PM",
+          "location": "Swearingen, Room 1D11"
+        }
+      ]
+    },
+    {
+      "name": "CSCE 490 - Capstone Computing Project",
+      "type": "Amendable",
+      "origin": "Custom",
+      "notes": "Meetings are held at this time, subject to change",
+      "timeSlots": [
+        {
+          "days": [6],
+          "startTime": "01:00 PM",
+          "endTime": "1:30 PM",
+          "location": "Discord"
+        }
+      ]
+    },
+    {
+      "name": "Lunch Break",
+      "type": "Amendable",
+      "origin": "Custom",
+      "notes": "Custom field to ensure lunch break is available",
+      "timeSlots": [
+        {
+          "days": [2, 3, 4, 5],
+          "startTime": "1:00 PM",
+          "endTime": "1:30 PM",
+          "location": "Campus"
+        }
+      ]
+    }
+  ]
+}
